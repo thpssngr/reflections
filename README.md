@@ -1,5 +1,5 @@
-# reflections
-Reflections about my udacity course - lesson by lesson.
+# Reflections
+Collecting my thoughts about my udacity course - lesson by lesson.
 
 ## Lessons
 
