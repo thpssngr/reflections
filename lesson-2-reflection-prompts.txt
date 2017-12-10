@@ -18,6 +18,8 @@ The staging area allows a comparison between the current state of a file and a c
 
 ## What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
+Branches can be useful before introducing bigger and/or more experimental changes to the software, in order to make it easier to distinguish different directions for the development.
+
 ## How do the diagrams help you visualize the branch structure?
 
 ## What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
