@@ -9,10 +9,16 @@ tracked for changes. For this, they need to be added to the repository using the
 ## How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a place to preview the changes before they are actually committed.
+That allows developers to carefully inspect the changes compared to the previous version,
+before committing them to the repository.
 
 ## How can you use the staging area to make sure you have one commit per logical change?
 
+The staging area allows a comparison between the current state of a file and a change before commiting it.
+
 ## What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be useful before introducing bigger and/or more experimental changes to the software, in order to make it easier to distinguish different directions for the development.
 
 ## How do the diagrams help you visualize the branch structure?
 
