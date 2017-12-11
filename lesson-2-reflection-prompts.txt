@@ -22,6 +22,8 @@ Branches can be useful before introducing bigger and/or more experimental change
 
 ## How do the diagrams help you visualize the branch structure?
 
+The branch diagrams help to visualize which changes were done on which branch, e.g. to understand why a certain code change is present in one branch and not in the other. The diagrams also help to visualize reachability of branches (or lack thereof).
+
 ## What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 ## What are the pros and cons of Git's automatic merging vs. always doing merges manually?
