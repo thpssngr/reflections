@@ -22,11 +22,7 @@ Branches can be useful before introducing bigger and/or more experimental change
 
 ## How do the diagrams help you visualize the branch structure?
 
-<<<<<<< HEAD
-The diagram provides an overview of the sequence of code changes over time per branch, to make it easier to compare when which change was introduced, and on which branch. In addition, the diagrams can help to visualize the effect of a merge, e.g. when it comes to non-accessible commits.
-=======
 The branch diagrams help to visualize which changes were done on which branch, e.g. to understand why a certain code change is present in one branch and not in the other. The diagrams also help to visualize reachability of branches (or lack thereof).
->>>>>>> aaa2661a1ce35c2ecfcd6db911b4380608f77377
 
 ## What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
