@@ -6,10 +6,13 @@ Remote repositories work well in cases where I want to either collaborate with o
 ## Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 When collaborating with other developers, it might be risky to automatically have changes pushed automatically, e.g. while working locally on the same feature, and their changes could break my current work.
 
-## Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
+## Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
-    Fill in your answer here
+| Concept   | Description                                        | Usage                                                                                                                     | Additional information                                                                              |
+|-----------|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Branching | A branch is a pointer to identify a set of commits | Working on a new feature while keeping a working main/official version of your code                                       | [Branching in a nutshell](https://www.git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)  |
+| Cloning   | Creates a local copy of a remote repository        | Contributing to a repository created by someone else, or working on your own repository locally while keeping an online copy | [Cloning a repository](https://help.github.com/articles/cloning-a-repository/)                   |
+| Forking   | Creates an online copy of a remote repository      | allows you to freely experiment with changes without affecting the original project                                       | [Forking a repository](https://help.github.com/articles/fork-a-repo/)                               |
 
 ## What is the benefit of having a copy of the last known state of the remote
 stored locally?
