@@ -18,8 +18,13 @@ When collaborating with other developers, it might be risky to automatically hav
 Being able to work off the last known state of a remote repository minimizes the risk of running into merge conflicts due to changes from different contributors.
 
 ## How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+| Easier                                                                     | Harder                                        |
+|----------------------------------------------------------------------------|-----------------------------------------------|
+| changes can be done faster by saving or even autosaving file changes       | working on the same feature simultaneously    |
+| not having to preserve complete version history saves hard disk space      | reviewing code changes made by others         |
+| allows for changes to be made in secret, without full traceability         | restoring older versions any time             |
+|                                                                            | working almost completely offline             |
 
-    Fill in your answer here
 
 ## When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
