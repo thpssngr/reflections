@@ -1,14 +1,10 @@
 # Reflections Lesson 3
 
-## When would you want to use a remote repository rather than keeping all your work
-local?
-
+## When would you want to use a remote repository rather than keeping all your work local?
 Remote repositories work well in cases where I want to either collaborate with other developers, or I want to work on one repository from different computers. In both cases, having the repository stored on GitHub ensures that several people (or computers) can make changes to the repository. Another useful side-effect is of course that the repository is still accessible in cases of hardware failure or theft.
 
-## Why might you want to always pull changes manually rather than having Git
-automatically stay up-to-date with your remote repository?
-
-    Fill in your answer here
+## Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+When collaborating with other developers, it might be risky to automatically have changes pushed automatically, e.g. while working locally on the same feature, and their changes could break my current work.
 
 ## Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
