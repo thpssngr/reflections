@@ -1,29 +1,25 @@
 # Reflections Lesson 2: Creating and modifying a repository
 
 ## What happens when you initialize a repository? Why do you need to do it?
-
 By initializing a repository via `git init`, a version history is added to the
 working directory, and all files that are included in the repository can be
 tracked for changes. For this, they need to be added to the repository using the command `git add`. This can be further configured by defining files to be ignored.
 
 ## How is the staging area different from the working directory and the repository? What value do you think it offers?
-
 The staging area is a place to preview the changes before they are actually committed.
 That allows developers to carefully inspect the changes compared to the previous version,
 before committing them to the repository.
 
 ## How can you use the staging area to make sure you have one commit per logical change?
-
 The staging area allows a comparison between the current state of a file and a change before commiting it.
 
 ## What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-
 Branches can be useful before introducing bigger and/or more experimental changes to the software, in order to make it easier to distinguish different directions for the development.
 
 ## How do the diagrams help you visualize the branch structure?
-
 The branch diagrams help to visualize which changes were done on which branch, e.g. to understand why a certain code change is present in one branch and not in the other. The diagrams also help to visualize reachability of branches (or lack thereof).
 
 ## What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches incorporates all changes from a branch in to the current one. It is represented in the diagram as two different bases converging, because the merged branch contains changes from both branches.
 
 ## What are the pros and cons of Git's automatic merging vs. always doing merges manually?
