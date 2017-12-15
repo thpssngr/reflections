@@ -28,4 +28,4 @@ Being able to work off the last known state of a remote repository minimizes the
 
 ## When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-Using a separate branch makes still a lot of sense when working on features or other code changes that will require at least several commits until they result in a meaningful experience. In order to not block others working on the same repository, a branch can help.
+Working on a separate branch makes sense when working on experimental features, or on larger code changes that take at least more than a few commits until resulting in a stable version again.
